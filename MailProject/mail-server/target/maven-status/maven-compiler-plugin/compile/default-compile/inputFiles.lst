@@ -1,0 +1,8 @@
+/Users/ami/Desktop/MailProject/mail-server/src/main/java/com/example/mail/server/MailServerApp.java
+/Users/ami/Desktop/MailProject/mail-server/src/main/java/com/example/mail/server/controller/ServerController.java
+/Users/ami/Desktop/MailProject/mail-server/src/main/java/com/example/mail/server/model/Email.java
+/Users/ami/Desktop/MailProject/mail-server/src/main/java/com/example/mail/server/model/MailServerModel.java
+/Users/ami/Desktop/MailProject/mail-server/src/main/java/com/example/mail/server/model/Mailbox.java
+/Users/ami/Desktop/MailProject/mail-server/src/main/java/com/example/mail/server/net/ClientHandler.java
+/Users/ami/Desktop/MailProject/mail-server/src/main/java/com/example/mail/server/net/MailServer.java
+/Users/ami/Desktop/MailProject/mail-server/src/main/java/com/example/mail/server/util/PersistenceUtil.java

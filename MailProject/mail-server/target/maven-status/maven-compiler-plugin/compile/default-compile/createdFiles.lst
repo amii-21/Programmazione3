@@ -1,0 +1,8 @@
+com/example/mail/server/controller/ServerController.class
+com/example/mail/server/net/MailServer.class
+com/example/mail/server/model/Mailbox.class
+com/example/mail/server/net/ClientHandler.class
+com/example/mail/server/model/MailServerModel.class
+com/example/mail/server/MailServerApp.class
+com/example/mail/server/util/PersistenceUtil.class
+com/example/mail/server/model/Email.class

@@ -1,0 +1,10 @@
+/Users/ami/Desktop/MailProject/mail-client/src/main/java/com/example/mail/client/MailClientApp.java
+/Users/ami/Desktop/MailProject/mail-client/src/main/java/com/example/mail/client/controller/LoginController.java
+/Users/ami/Desktop/MailProject/mail-client/src/main/java/com/example/mail/client/controller/MailboxController.java
+/Users/ami/Desktop/MailProject/mail-client/src/main/java/com/example/mail/client/model/ClientConnection.java
+/Users/ami/Desktop/MailProject/mail-client/src/main/java/com/example/mail/client/model/ClientFetcherThread.java
+/Users/ami/Desktop/MailProject/mail-client/src/main/java/com/example/mail/client/model/ClientState.java
+/Users/ami/Desktop/MailProject/mail-client/src/main/java/com/example/mail/client/model/Email.java
+/Users/ami/Desktop/MailProject/mail-client/src/main/java/com/example/mail/client/model/LoginServerWatcherThread.java
+/Users/ami/Desktop/MailProject/mail-client/src/main/java/com/example/mail/client/model/Mailbox.java
+/Users/ami/Desktop/MailProject/mail-client/src/main/java/com/example/mail/client/util/EmailValidator.java

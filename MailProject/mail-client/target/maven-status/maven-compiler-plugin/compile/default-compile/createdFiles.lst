@@ -1,0 +1,10 @@
+com/example/mail/client/MailClientApp.class
+com/example/mail/client/model/Email.class
+com/example/mail/client/controller/LoginController.class
+com/example/mail/client/model/ClientConnection.class
+com/example/mail/client/controller/MailboxController.class
+com/example/mail/client/model/ClientState.class
+com/example/mail/client/util/EmailValidator.class
+com/example/mail/client/model/Mailbox.class
+com/example/mail/client/model/LoginServerWatcherThread.class
+com/example/mail/client/model/ClientFetcherThread.class

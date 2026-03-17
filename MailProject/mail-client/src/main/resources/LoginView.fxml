@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.mail.client.controller.LoginController">
+
+    <center>
+        <VBox alignment="CENTER" spacing="15">
+            <padding>
+                <Insets top="40" right="20" bottom="40" left="20"/>
+            </padding>
+
+            <Label text="Mail Client Login" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+
+            <TextField fx:id="emailField" promptText="Enter your email" prefWidth="250"/>
+
+            <Button text="Login" prefWidth="120" onAction="#handleLogin"/>
+
+            <Label fx:id="errorLabel" text="" style="-fx-text-fill: red;"/>
+
+            <Label fx:id="serverStatus" text="Checking server..." style="-fx-text-fill: gray;"/>
+        </VBox>
+    </center>
+
+</BorderPane>

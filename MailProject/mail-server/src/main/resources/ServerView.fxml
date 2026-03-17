@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.mail.server.controller.ServerController">
+
+    <!-- TOP BAR -->
+    <top>
+        <HBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <Label text="Port:"/>
+            <Label fx:id="portLabel" text="9999"/>
+
+
+            <Button fx:id="startButton" text="Start" onAction="#startServer" />
+            <Button fx:id="stopButton" text="Stop" onAction="#stopServer" />
+        </HBox>
+    </top>
+
+    <!-- CENTER: LOG -->
+    <center>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <Label text="Server Log"/>
+            <TextArea fx:id="logArea"
+                      editable="false"
+                      wrapText="true"
+                      prefRowCount="20"/>
+        </VBox>
+    </center>
+
+    <!-- RIGHT: ACCOUNTS LIST -->
+    <right>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <Label text="Accounts"/>
+            <ListView fx:id="accountsList" prefWidth="200"/>
+        </VBox>
+    </right>
+
+</BorderPane>
